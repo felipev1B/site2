@@ -1,69 +1,64 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
+body {
+    font-family: 'Poppins', sans-serif;
+}
 .cabecalho {
-    background-color: #f8f9fa; /* Cor de fundo do cabeçalho */
-    padding: 20px; /* Espaçamento interno */
+    background-color: #424E61;
+    color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding: 24px 0;
 }
 
-.cabecalho-imagem {
-    width: 150px; /* Largura do logotipo */
-    height: auto; /* Altura automática para manter a proporção */
+.cabecalho-imagem{
+    width: 10%;
 }
 
-.cabecalho-lista {
-    list-style: none; /* Remover marcadores de lista */
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color:white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
 
-.cabecalho-lista-item {
-    margin-right: 20px; /* Espaçamento entre os itens do menu */
+.escola-div-conteudo{
+    width: 35%;
 }
 
-.cabecalho-lista-item a {
-    text-decoration: none; /* Remover sublinhado dos links */
-    color: #333; /* Cor do texto */
-    font-weight: bold; /* Negrito */
-    transition: color 0.3s; /* Transição suave de cor */
+
+.escola-titulo{
+    padding: 24px 0;
 }
 
-.cabecalho-lista-item a:hover {
-    color: #ff6347; /* Mudar a cor ao passar o mouse */
+.estudante{
+    padding: 24px 0;
+}
+.estudante-imagem{
+    width: 120px;
 }
 
-section {
-    padding: 50px 20px; /* Espaçamento interno superior e inferior */
-    background-color: #fff; /* Cor de fundo das seções */
-    margin-bottom: 20px; /* Espaçamento inferior entre as seções */
-    border-radius: 5px; /* Borda arredondada */
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
 }
 
-section h2 {
-    margin-bottom: 20px; /* Espaçamento inferior para o título */
-    color: #333; /* Cor do texto do título */
-}
-
-/* Estilos para os itens do menu */
-.menu-item {
-    margin-bottom: 20px; /* Espaçamento inferior entre os itens do menu */
-}
-
-.menu-item h3 {
-    color: #ff6347; /* Cor do texto do título do item do menu */
-}
-
-.menu-item p {
-    color: #666; /* Cor do texto da descrição do item do menu */
-}
-
-.menu-item span {
-    color: #333; /* Cor do texto do preço do item do menu */
-    font-weight: bold; /* Negrito */
-    margin-left: 10px; /* Espaçamento à esquerda */
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
 }
