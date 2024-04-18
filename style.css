@@ -37,3 +37,33 @@
     color: #ff6347; /* Mudar a cor ao passar o mouse */
 }
 
+section {
+    padding: 50px 20px; /* Espaçamento interno superior e inferior */
+    background-color: #fff; /* Cor de fundo das seções */
+    margin-bottom: 20px; /* Espaçamento inferior entre as seções */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+section h2 {
+    margin-bottom: 20px; /* Espaçamento inferior para o título */
+    color: #333; /* Cor do texto do título */
+}
+
+/* Estilos para os itens do menu */
+.menu-item {
+    margin-bottom: 20px; /* Espaçamento inferior entre os itens do menu */
+}
+
+.menu-item h3 {
+    color: #ff6347; /* Cor do texto do título do item do menu */
+}
+
+.menu-item p {
+    color: #666; /* Cor do texto da descrição do item do menu */
+}
+
+.menu-item span {
+    color: #333; /* Cor do texto do preço do item do menu */
+    font-weight: bold; /* Negrito */
+    margin-left: 10px; /* Espaçamento à esquerda */
+}
