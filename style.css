@@ -1,23 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .cabecalho {
-    background-color: #424E61;
-    color: white;
+    background-color: #f8f9fa; /* Cor de fundo do cabeçalho */
+    padding: 20px; /* Espaçamento interno */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
 }
 
-.cabecalho-imagem{
-    width: 20%;
+.cabecalho-imagem {
+    width: 150px; /* Largura do logotipo */
+    height: auto; /* Altura automática para manter a proporção */
 }
 
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+.cabecalho-lista {
+    list-style: none; /* Remover marcadores de lista */
+    display: flex;
 }
+
+.cabecalho-lista-item {
+    margin-right: 20px; /* Espaçamento entre os itens do menu */
+}
+
+.cabecalho-lista-item a {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: #333; /* Cor do texto */
+    font-weight: bold; /* Negrito */
+    transition: color 0.3s; /* Transição suave de cor */
+}
+
+.cabecalho-lista-item a:hover {
+    color: #ff6347; /* Mudar a cor ao passar o mouse */
+}
+
